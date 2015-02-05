@@ -13,9 +13,10 @@
     
     <script>
       $(document).ready(function() {
+        
         $('.notes').hide();
-        $('.title').on('dblclick', function() {
-          $(this).siblings('.notes').slideDown(300)
+        $(document).on('dblclick', '.title', function() {
+          $(this).siblings('.notes').slideDown(300);
         });
         
         $('#message').hide(function() {

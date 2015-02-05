@@ -97,7 +97,7 @@ $(document).ready(function() {
 
     $( "#library-list, #playlist-list" ).sortable({
       connectWith: ".connectedSortable"
-    });
+    })
 
   });
 
